@@ -3,6 +3,7 @@
 import axios from 'axios';
 
 import * as actions from './actionTypes';
+import API_KEY from './API';
 
 export const authStart = () => {
   return {
@@ -52,9 +53,9 @@ export const auth = (email, password, isSignup) => {
       returnSecureToken: true
     };
 
-    let url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyB18FJnhDNDuSacCh350zYXyCdgp0zBgk4';
+    let url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=' + API_KEY;
     if (!isSignup) {
-      url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyB18FJnhDNDuSacCh350zYXyCdgp0zBgk4';
+      url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=' + API_KEY;
     }
 
     axios.post(

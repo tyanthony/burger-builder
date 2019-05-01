@@ -5,8 +5,8 @@ The app can be found at [Burger Builder](https://react-my-burger-b61ad.firebasea
 
 ### About this app
 
-This web-app is a product of the Udemy course [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/react-the-complete-guide-incl-redux/). The class walks though
-the various aspects of building a web app and walks through building a working app that is then deployed. The app is also mobile and desktop friendly
+This web-app is a product of the Udemy course [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/react-the-complete-guide-incl-redux/). The class covers
+the various aspects of building a web app with React and walks through building a working app that is then deployed. The app is also mobile and desktop friendly
 
 In this app you can login and out, build a burger, place an order and view your orders. 
 
@@ -27,6 +27,6 @@ In this app you can login and out, build a burger, place an order and view your 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project stores data is hosted using [Firebase](https://firebase.google.com/).
+This project stores data and is hosted using [Firebase](https://firebase.google.com/).
 
 
